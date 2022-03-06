@@ -1,0 +1,223 @@
+/* landing page */
+.landing-page { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.hero { 
+    height: 200px;
+    margin: 0 auto;
+} 
+.skill{
+    color: red;
+    height: 300px;
+}
+
+.title-name { 
+    text-align: center;
+    top:20%;
+    position: relative;
+}
+
+
+
+/* second page */
+.second-page { 
+    height: 100vh;
+    width: 100vw;
+}
+
+.bio { 
+    height: 50vh;
+    width: 100vw;
+    background-color: #b783f9;
+    
+
+}
+
+.bio-1 { 
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.bio-2 { 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    color: white;
+}
+
+.main-bio { 
+    text-align: center;
+    padding: 100px;
+   
+}
+
+.bio-code { 
+    height: 50vh;
+    width: 100vw;
+}
+
+.bio-secondhalf { 
+    text-align: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+/* coding logos  */
+
+.logos { 
+    margin-top: 150px;
+}
+
+.logo1 { 
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+    
+    
+}
+
+.logo2 { 
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+    
+}
+.logo3 { 
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+}
+
+.logo4 { 
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+}
+
+.logo5 { 
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+}
+
+.logo6 { 
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+}
+
+.logo7  {
+    height: 100px;
+    width: auto;
+    border: 4px black solid ;
+}
+
+/* third page  */
+
+.third-page { 
+    height: 100vh;
+    width: 100vw;
+    background-color:#b783f9 ;
+    
+}
+
+.code-lang { 
+    text-align: center;
+}
+
+
+.image123{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projectImg { 
+    height: 300px;
+    width: auto;
+    padding: 0 50px;
+}
+
+.imgContainer{
+    float:left;
+    
+    text-align: center;
+   
+    
+}
+
+
+.text1 { 
+    margin-top: 200px;
+}
+
+/* * projects */ */
+
+.poopimg{ 
+    height: 200px;
+}
+
+.poopimg2 {
+    height: 200px;
+}
+
+
+
+ /* fourth page */
+
+ .socialm-contact { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    
+   
+ }
+
+ .socialm-icons { 
+     display: flex;
+     justify-content: center;
+     text-align: center;
+
+ }
+
+/* social media logos */
+
+ /* .linkedin-logo { 
+     height: 100px;
+     border-radius: 90px;
+     border: 5px solid black;
+     transition: all .5s;
+ } */
+
+ 
+ .logo { 
+     border-radius: 90px;
+     height: 100px;
+     width: auto;
+     border: 5px solid black;
+     transition: all .5s;
+     margin: 0 5%;
+    }
+    
+    .logo:hover { 
+       transform: scale(1.1);
+       transition: all .5s;
+   }
+
+ /* .twitter-logo { 
+     height: 100px;
+     border-radius: 90px;
+     border: 5px solid black;
+
+ } */
